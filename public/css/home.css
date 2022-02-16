@@ -1,0 +1,94 @@
+body{
+    background-color: #1F1D21;
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;   
+  }
+  
+  
+  .darker{
+    background-color: #121113;
+    fill: #1F1D21;
+    --backback: #1F1D21;
+    --backbackstrong: #121113;
+  }
+  .lighter{
+    background-color: #1F1D21;
+    fill: #121113;
+    --backback: #121113;
+    --backbackstrong: #1F1D21;
+  }
+  
+  #first{
+    min-height: 100px;
+    padding: 4vw;
+    padding-bottom: 0;
+  }
+  
+  #first .titleBox{
+    float: left;
+    color: #F7F7F2;
+    font-size: calc(15px + 1vw);
+  }
+  
+  #first .btnBox{
+    float: right;
+  }
+  #first button{
+      background-color: #7E7EB4;
+      padding: 5px;
+      border: none;
+      border-radius: 5px;
+      color: #1F1D21;
+      font-size: calc(10px + 0.25vw);
+      
+  }
+  #first .current{
+      background-color: transparent;
+      color: #7E7EB4 ;
+  }
+  button:not(.current):hover{
+    background-color: #9898c3;
+  }
+  
+  #labels{
+    padding: 2.5vw
+  }
+  
+  #second{
+    height: 90vh;
+  }
+  #second h1{
+     font-size: calc(10px + 3vw);
+      font-weight: lighter;
+      color: #F7F7F2;
+      text-align: center;
+  }
+  
+  #second h2{
+      font-size: calc(5px + 1vw);
+      color: #7E7EB4;
+      padding-right: 10vw;
+      padding-left: 10vw;
+      text-align: center;
+  }
+
+
+
+
+  .custom-shape-divider-top {
+    margin: 0;
+    position: relative;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: calc(20vw / 10vh);
+    transform: rotateY(180deg);
+}

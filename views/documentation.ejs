@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width"  >
+    <title>ProfileGenApi</title>
+    <link href="css/documentation.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <section id="first" class="lighter">
+      <div class="titleBox">ProfileGenApi</div>
+
+      <div class="btnBox">
+        <button onclick="location.href='/'">Home</button>
+        <button class="current">Documentation</button>
+        <button>About</button>
+      </div>
+    </section>
+    
+    <section id="second" class="darker">
+      <div class="custom-shape-divider-top">
+       <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+          <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+
+    <div id="labels">
+      <h1>Documentation</h1>
+      <h2>ProfileGenApi's documentation was attempted to be made as clear as possible, therefor if anything is unclear feel free to send a request and additition on any contact on the home page.</h2>
+    <div>
+
+
+    </section>
+  
+
+
+    <section class="lighter"> 
+      <div class="custom-shape-divider">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+          </svg>
+      </div>
+
+
+
+      <div id="content">
+        <h1>Topographical</h1>
+
+        <h2>Default</h2>
+        <div class="wrap">
+          <div class="wrapLeft">
+              <span onClick="copy(this)">/newTopoPfp/
+                <a style="float:right">✁</a>
+              </span>
+              <strong>Dimensions:</strong> 1000x1000
+              <br>
+              <strong>Filetype:</strong> png
+              <br>
+              <strong>Seed:</strong> random
+              <br>
+              <strong>Background:</strong> #000000
+              <br>
+              <strong>Color:</strong> based on seed from [`F7D094`,`D5F7C6`,`F8DBAE`,`94CDF7`,`F783EE` ]
+          </div>
+          <div class="wrapRight">
+            <img src="img/topoExample.png">
+          </div>
+        </div>
+
+        <h2>Custom <seed></seed></h2>
+        <div class="wrap">
+          <div class="wrapLeft">
+            <span onClick="copy(this)">/newTopoPfp/&lt;seed&gt/&lt;background&gt;/&lt;colors&gt;
+              <a style="float:right">✁</a>
+            </span>
+            <strong>Dimensions:</strong> 1000x1000
+            <br>
+            <strong>Filetype:</strong> png
+            <br>
+            <strong>Seed:</strong> &lt;seed&gt; <br>
+            &emsp; <strong>Use:</strong> Recommend using the username of the user creating a unqiue profile picture just for them <br>
+            &emsp; <strong>Type:</strong> String
+            <br>
+            <strong>Background:</strong> &lt;background&gt <br>
+            &emsp; <strong>Type:</strong> Hex Color
+            <br>
+            <strong>Color:</strong> based on seed from &lt;colors&gt;<br>
+            &emsp; <strong>Type:</strong> Hex Colors divided by ',' <br>
+            <strong>Example:</strong> /newTopoPfp/xX_streakz_Xx/9E352F/5EEB93,209E50
+            
+            
+          </div>
+          <div class="wrapRight">
+            <img src="img/topoCustomExample.png">
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <section class="darker"> 
+
+
+
+      
+      <div class="custom-shape-divider">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+          </svg>
+      </div>
+
+      <div id="content">
+        <h1>Field</h1>
+
+        <h2>Default</h2>
+        <div class="wrap">
+          <div class="wrapLeft">
+              <span onClick="copy(this)">/newFieldPfp/
+                <a style="float:right">✁</a>
+              </span>
+              <strong>Dimensions:</strong> 1000x1000
+              <br>
+              <strong>Filetype:</strong> png
+              <br>
+              <strong>Seed:</strong> random
+              <br>
+              <strong>Background:</strong> #000000
+              <br>
+              <strong>Color:</strong> based on seed from [`F7D094`,`D5F7C6`,`F8DBAE`,`94CDF7`,`F783EE` ]
+          </div>
+          <div class="wrapRight">
+            <img src="img/fieldExample.png">
+          </div>
+        </div>
+
+        <h2>Custom <seed></seed></h2>
+        <div class="wrap">
+          <div class="wrapLeft">
+            <span onClick="copy(this)">/newFieldPfp/&lt;seed&gt/&lt;background&gt;/&lt;colors&gt;
+              <a style="float:right">✁</a>
+            </span>
+            <strong>Dimensions:</strong> 1000x1000
+            <br>
+            <strong>Filetype:</strong> png
+            <br>
+            <strong>Seed:</strong> &lt;seed&gt; <br>
+            &emsp; <strong>Use:</strong> Recommend using the username of the user creating a unqiue profile picture just for them <br>
+            &emsp; <strong>Type:</strong> String
+            <br>
+            <strong>Background:</strong> &lt;background&gt <br>
+            &emsp; <strong>Type:</strong> Hex Color
+            <br>
+            <strong>Color:</strong> based on seed from &lt;colors&gt;<br>
+            &emsp; <strong>Type:</strong> Hex Colors divided by ',' <br>
+            <strong>Example:</strong> /newFieldPfp/xX_streakz_Xx/9E352F/5EEB93,209E50
+            
+            
+          </div>
+          <div class="wrapRight">
+            <img src="img/fieldCustomExample.png">
+          </div>
+        </div>
+
+      </div>
+
+      
+
+
+    </section>
+
+
+    <section class="lighter"> 
+      <div class="custom-shape-divider">
+          <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+              <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+          </svg>
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+    <div onmouseover="changeOp()" id="copied">Copied</div>
+    <script src="js/documentation.js"></script>
+  </body>
+</html>
